@@ -1,3 +1,10 @@
+/*
+    Author: Botan Celik
+    Date: 16.11.2020
+    Program: Socket server
+    Purpose: A server program which sends a message, sent by a client, back.
+    Github-Rep.: https://github.com/TheBloodyAmateur/SchoolProjects.git
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/socket.h>
