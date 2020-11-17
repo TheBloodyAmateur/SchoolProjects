@@ -52,6 +52,7 @@ int main()
     //Set the port for the server (in this case 8080)
     serverStruct.sin_port = htons(PORT);
 
+    //Bind socket to the port
     if(bind(server, (struct sockaddr *)&serverStruct, sizeof(serverStruct)) < 0)
     {
         printf("Error: binding socket");
