@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1610283293 source:d:\fsst\c_program\quicksort\quicksort\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
